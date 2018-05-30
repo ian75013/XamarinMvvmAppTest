@@ -32,11 +32,11 @@ namespace my_mvvm_light.ViewModel
             NumberOfShuffles = 0;
             // fill the UI properties
             var firstTeam = FootballCards.First();
-            var TeamName = firstTeam.TeamName;
-            var StadiumName = firstTeam.StadiumName;
-            var Capacity = firstTeam.Capacity;
-            var Longitude = firstTeam.Longitude;
-            var Latitude = firstTeam.Latitude;
+            TeamName = firstTeam.TeamName;
+            StadiumName = firstTeam.StadiumName;
+            Capacity = firstTeam.Capacity;
+            Longitude = firstTeam.Longitude;
+            Latitude = firstTeam.Latitude;
         }
 
         // number of shuffles

@@ -39,9 +39,13 @@ namespace my_mvvm_light.Droid
 		        BindingMode.TwoWay);
 		    this.SetBinding(
 		        () => ViewModel.StadiumName,
-		        () => TxtStadium,
+		        () => TxtStadium.Text,
 		        BindingMode.TwoWay);
-		   CreateButtonBinding();
+		    this.SetBinding(
+		        () => ViewModel.NumberOfShuffles,
+		        () => EditShuffles.Text,
+		        BindingMode.TwoWay);
+            CreateButtonBinding();
 		    
         }
 	    void CreateButtonBinding()
